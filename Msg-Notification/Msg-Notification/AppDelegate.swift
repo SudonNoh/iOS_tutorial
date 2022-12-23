@@ -1,22 +1,25 @@
 //
 //  AppDelegate.swift
-//  SubmitValue-Back
+//  Msg-Notification
 //
-//  Created by Sudon Noh on 2022/12/22.
+//  Created by Sudon Noh on 2022/12/23.
 //
 
 import UIKit
+import UserNotifications
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    /* 값을 저장할 변수를 정의 */
-    var paramEmail: String?
-    var paramUpdate: Bool?
-    var paramInterval: Double?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        if #available(iOS 10.0, *) {
+            let notiCenter = UNUserNotificationCenter.current()
+            notiCenter.requestAuthorization(options: [.alert, .badge, .sound]) { (didAllow, e) in }
+        } else {
+            
+        }
         return true
     }
 
@@ -33,7 +36,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
-
-
 }
 
