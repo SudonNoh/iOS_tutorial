@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     }
 }
 
-// MARK:- 이미지 피커 컨트롤러 델리게이트 메소드
+// MARK: 이미지 피커 컨트롤러 델리게이트 메소드
 extension ViewController: UIImagePickerControllerDelegate {
     // 이미지 피커에서 이미지를 선택하지 않고 취소했을 때 호출되는 메소드
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
@@ -51,5 +51,5 @@ extension ViewController: UIImagePickerControllerDelegate {
     }
 }
 
-// MARK:- 내비게이션 컨트롤러 델리게이트 메소드
+// MARK: 내비게이션 컨트롤러 델리게이트 메소드
 extension ViewController: UINavigationControllerDelegate {}
