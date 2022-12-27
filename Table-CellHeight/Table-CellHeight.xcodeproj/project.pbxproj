@@ -7,39 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA66C866295A639C001C6CB2 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66C865295A639C001C6CB2 /* MovieCell.swift */; };
-		EA66C869295A7446001C6CB2 /* darknight.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EA66C868295A7446001C6CB2 /* darknight.jpeg */; };
-		EA66C86C295A744E001C6CB2 /* rain.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EA66C86A295A744E001C6CB2 /* rain.jpeg */; };
-		EA66C86D295A744E001C6CB2 /* secret.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EA66C86B295A744E001C6CB2 /* secret.jpeg */; };
-		EADEE5FB2959F207000335A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADEE5FA2959F207000335A8 /* AppDelegate.swift */; };
-		EADEE5FD2959F207000335A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADEE5FC2959F207000335A8 /* SceneDelegate.swift */; };
-		EADEE5FF2959F207000335A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADEE5FE2959F207000335A8 /* ViewController.swift */; };
-		EADEE6022959F207000335A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADEE6002959F207000335A8 /* Main.storyboard */; };
-		EADEE6042959F208000335A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EADEE6032959F208000335A8 /* Assets.xcassets */; };
-		EADEE6072959F208000335A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADEE6052959F208000335A8 /* LaunchScreen.storyboard */; };
-		EADEE60F2959F240000335A8 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADEE60E2959F240000335A8 /* ListViewController.swift */; };
-		EADEE6112959F2EA000335A8 /* MovieVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADEE6102959F2EA000335A8 /* MovieVO.swift */; };
+		EA66C87B295A8054001C6CB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66C87A295A8054001C6CB2 /* AppDelegate.swift */; };
+		EA66C87D295A8054001C6CB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66C87C295A8054001C6CB2 /* SceneDelegate.swift */; };
+		EA66C882295A8054001C6CB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA66C880295A8054001C6CB2 /* Main.storyboard */; };
+		EA66C884295A8055001C6CB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA66C883295A8055001C6CB2 /* Assets.xcassets */; };
+		EA66C887295A8055001C6CB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA66C885295A8055001C6CB2 /* LaunchScreen.storyboard */; };
+		EA66C88F295A843A001C6CB2 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66C88E295A843A001C6CB2 /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EA66C865295A639C001C6CB2 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
-		EA66C868295A7446001C6CB2 /* darknight.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = darknight.jpeg; sourceTree = "<group>"; };
-		EA66C86A295A744E001C6CB2 /* rain.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rain.jpeg; sourceTree = "<group>"; };
-		EA66C86B295A744E001C6CB2 /* secret.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = secret.jpeg; sourceTree = "<group>"; };
-		EADEE5F72959F207000335A8 /* MyMovieChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMovieChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EADEE5FA2959F207000335A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EADEE5FC2959F207000335A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EADEE5FE2959F207000335A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EADEE6012959F207000335A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EADEE6032959F208000335A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EADEE6062959F208000335A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EADEE6082959F208000335A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EADEE60E2959F240000335A8 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
-		EADEE6102959F2EA000335A8 /* MovieVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVO.swift; sourceTree = "<group>"; };
+		EA66C877295A8054001C6CB2 /* Table-CellHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Table-CellHeight.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA66C87A295A8054001C6CB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA66C87C295A8054001C6CB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EA66C881295A8054001C6CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA66C883295A8055001C6CB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA66C886295A8055001C6CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA66C888295A8055001C6CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA66C88E295A843A001C6CB2 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EADEE5F42959F207000335A8 /* Frameworks */ = {
+		EA66C874295A8054001C6CB2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,86 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EA66C867295A716F001C6CB2 /* Resources */ = {
+		EA66C86E295A8054001C6CB2 = {
 			isa = PBXGroup;
 			children = (
-				EA66C86A295A744E001C6CB2 /* rain.jpeg */,
-				EA66C86B295A744E001C6CB2 /* secret.jpeg */,
-				EA66C868295A7446001C6CB2 /* darknight.jpeg */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		EADEE5EE2959F207000335A8 = {
-			isa = PBXGroup;
-			children = (
-				EADEE5F92959F207000335A8 /* MyMovieChart */,
-				EADEE5F82959F207000335A8 /* Products */,
+				EA66C879295A8054001C6CB2 /* Table-CellHeight */,
+				EA66C878295A8054001C6CB2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EADEE5F82959F207000335A8 /* Products */ = {
+		EA66C878295A8054001C6CB2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EADEE5F72959F207000335A8 /* MyMovieChart.app */,
+				EA66C877295A8054001C6CB2 /* Table-CellHeight.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EADEE5F92959F207000335A8 /* MyMovieChart */ = {
+		EA66C879295A8054001C6CB2 /* Table-CellHeight */ = {
 			isa = PBXGroup;
 			children = (
-				EA66C867295A716F001C6CB2 /* Resources */,
-				EADEE5FA2959F207000335A8 /* AppDelegate.swift */,
-				EADEE5FC2959F207000335A8 /* SceneDelegate.swift */,
-				EADEE5FE2959F207000335A8 /* ViewController.swift */,
-				EADEE6002959F207000335A8 /* Main.storyboard */,
-				EA66C865295A639C001C6CB2 /* MovieCell.swift */,
-				EADEE6102959F2EA000335A8 /* MovieVO.swift */,
-				EADEE60E2959F240000335A8 /* ListViewController.swift */,
-				EADEE6032959F208000335A8 /* Assets.xcassets */,
-				EADEE6052959F208000335A8 /* LaunchScreen.storyboard */,
-				EADEE6082959F208000335A8 /* Info.plist */,
+				EA66C87A295A8054001C6CB2 /* AppDelegate.swift */,
+				EA66C87C295A8054001C6CB2 /* SceneDelegate.swift */,
+				EA66C880295A8054001C6CB2 /* Main.storyboard */,
+				EA66C88E295A843A001C6CB2 /* ListViewController.swift */,
+				EA66C883295A8055001C6CB2 /* Assets.xcassets */,
+				EA66C885295A8055001C6CB2 /* LaunchScreen.storyboard */,
+				EA66C888295A8055001C6CB2 /* Info.plist */,
 			);
-			path = MyMovieChart;
+			path = "Table-CellHeight";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EADEE5F62959F207000335A8 /* MyMovieChart */ = {
+		EA66C876295A8054001C6CB2 /* Table-CellHeight */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EADEE60B2959F208000335A8 /* Build configuration list for PBXNativeTarget "MyMovieChart" */;
+			buildConfigurationList = EA66C88B295A8055001C6CB2 /* Build configuration list for PBXNativeTarget "Table-CellHeight" */;
 			buildPhases = (
-				EADEE5F32959F207000335A8 /* Sources */,
-				EADEE5F42959F207000335A8 /* Frameworks */,
-				EADEE5F52959F207000335A8 /* Resources */,
+				EA66C873295A8054001C6CB2 /* Sources */,
+				EA66C874295A8054001C6CB2 /* Frameworks */,
+				EA66C875295A8054001C6CB2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MyMovieChart;
-			productName = MyMovieChart_test;
-			productReference = EADEE5F72959F207000335A8 /* MyMovieChart.app */;
+			name = "Table-CellHeight";
+			productName = "Table-CellHeight";
+			productReference = EA66C877295A8054001C6CB2 /* Table-CellHeight.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EADEE5EF2959F207000335A8 /* Project object */ = {
+		EA66C86F295A8054001C6CB2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					EADEE5F62959F207000335A8 = {
+					EA66C876295A8054001C6CB2 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = EADEE5F22959F207000335A8 /* Build configuration list for PBXProject "MyMovieChart" */;
+			buildConfigurationList = EA66C872295A8054001C6CB2 /* Build configuration list for PBXProject "Table-CellHeight" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -136,61 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = EADEE5EE2959F207000335A8;
-			productRefGroup = EADEE5F82959F207000335A8 /* Products */;
+			mainGroup = EA66C86E295A8054001C6CB2;
+			productRefGroup = EA66C878295A8054001C6CB2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EADEE5F62959F207000335A8 /* MyMovieChart */,
+				EA66C876295A8054001C6CB2 /* Table-CellHeight */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EADEE5F52959F207000335A8 /* Resources */ = {
+		EA66C875295A8054001C6CB2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EADEE6072959F208000335A8 /* LaunchScreen.storyboard in Resources */,
-				EADEE6042959F208000335A8 /* Assets.xcassets in Resources */,
-				EA66C86C295A744E001C6CB2 /* rain.jpeg in Resources */,
-				EA66C86D295A744E001C6CB2 /* secret.jpeg in Resources */,
-				EA66C869295A7446001C6CB2 /* darknight.jpeg in Resources */,
-				EADEE6022959F207000335A8 /* Main.storyboard in Resources */,
+				EA66C887295A8055001C6CB2 /* LaunchScreen.storyboard in Resources */,
+				EA66C884295A8055001C6CB2 /* Assets.xcassets in Resources */,
+				EA66C882295A8054001C6CB2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EADEE5F32959F207000335A8 /* Sources */ = {
+		EA66C873295A8054001C6CB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EADEE5FF2959F207000335A8 /* ViewController.swift in Sources */,
-				EADEE5FB2959F207000335A8 /* AppDelegate.swift in Sources */,
-				EA66C866295A639C001C6CB2 /* MovieCell.swift in Sources */,
-				EADEE60F2959F240000335A8 /* ListViewController.swift in Sources */,
-				EADEE5FD2959F207000335A8 /* SceneDelegate.swift in Sources */,
-				EADEE6112959F2EA000335A8 /* MovieVO.swift in Sources */,
+				EA66C87B295A8054001C6CB2 /* AppDelegate.swift in Sources */,
+				EA66C87D295A8054001C6CB2 /* SceneDelegate.swift in Sources */,
+				EA66C88F295A843A001C6CB2 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EADEE6002959F207000335A8 /* Main.storyboard */ = {
+		EA66C880295A8054001C6CB2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EADEE6012959F207000335A8 /* Base */,
+				EA66C881295A8054001C6CB2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		EADEE6052959F208000335A8 /* LaunchScreen.storyboard */ = {
+		EA66C885295A8055001C6CB2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EADEE6062959F208000335A8 /* Base */,
+				EA66C886295A8055001C6CB2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -198,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EADEE6092959F208000335A8 /* Debug */ = {
+		EA66C889295A8055001C6CB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -258,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		EADEE60A2959F208000335A8 /* Release */ = {
+		EA66C88A295A8055001C6CB2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -312,7 +280,7 @@
 			};
 			name = Release;
 		};
-		EADEE60C2959F208000335A8 /* Debug */ = {
+		EA66C88C295A8055001C6CB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -320,7 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MyMovieChart/Info.plist;
+				INFOPLIST_FILE = "Table-CellHeight/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -331,7 +299,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = user.MyMovieChart;
+				PRODUCT_BUNDLE_IDENTIFIER = "user.Table-CellHeight";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -342,7 +310,7 @@
 			};
 			name = Debug;
 		};
-		EADEE60D2959F208000335A8 /* Release */ = {
+		EA66C88D295A8055001C6CB2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -350,7 +318,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MyMovieChart/Info.plist;
+				INFOPLIST_FILE = "Table-CellHeight/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -361,7 +329,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = user.MyMovieChart;
+				PRODUCT_BUNDLE_IDENTIFIER = "user.Table-CellHeight";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -375,25 +343,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EADEE5F22959F207000335A8 /* Build configuration list for PBXProject "MyMovieChart" */ = {
+		EA66C872295A8054001C6CB2 /* Build configuration list for PBXProject "Table-CellHeight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EADEE6092959F208000335A8 /* Debug */,
-				EADEE60A2959F208000335A8 /* Release */,
+				EA66C889295A8055001C6CB2 /* Debug */,
+				EA66C88A295A8055001C6CB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EADEE60B2959F208000335A8 /* Build configuration list for PBXNativeTarget "MyMovieChart" */ = {
+		EA66C88B295A8055001C6CB2 /* Build configuration list for PBXNativeTarget "Table-CellHeight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EADEE60C2959F208000335A8 /* Debug */,
-				EADEE60D2959F208000335A8 /* Release */,
+				EA66C88C295A8055001C6CB2 /* Debug */,
+				EA66C88D295A8055001C6CB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EADEE5EF2959F207000335A8 /* Project object */;
+	rootObject = EA66C86F295A8054001C6CB2 /* Project object */;
 }
