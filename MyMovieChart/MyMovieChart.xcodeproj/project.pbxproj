@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA66C866295A639C001C6CB2 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA66C865295A639C001C6CB2 /* MovieCell.swift */; };
 		EADEE5FB2959F207000335A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADEE5FA2959F207000335A8 /* AppDelegate.swift */; };
 		EADEE5FD2959F207000335A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADEE5FC2959F207000335A8 /* SceneDelegate.swift */; };
 		EADEE5FF2959F207000335A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADEE5FE2959F207000335A8 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA66C865295A639C001C6CB2 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		EADEE5F72959F207000335A8 /* MyMovieChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMovieChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADEE5FA2959F207000335A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EADEE5FC2959F207000335A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				EADEE5FC2959F207000335A8 /* SceneDelegate.swift */,
 				EADEE5FE2959F207000335A8 /* ViewController.swift */,
 				EADEE6002959F207000335A8 /* Main.storyboard */,
+				EA66C865295A639C001C6CB2 /* MovieCell.swift */,
 				EADEE6102959F2EA000335A8 /* MovieVO.swift */,
 				EADEE60E2959F240000335A8 /* ListViewController.swift */,
 				EADEE6032959F208000335A8 /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 			files = (
 				EADEE5FF2959F207000335A8 /* ViewController.swift in Sources */,
 				EADEE5FB2959F207000335A8 /* AppDelegate.swift in Sources */,
+				EA66C866295A639C001C6CB2 /* MovieCell.swift in Sources */,
 				EADEE60F2959F240000335A8 /* ListViewController.swift in Sources */,
 				EADEE5FD2959F207000335A8 /* SceneDelegate.swift in Sources */,
 				EADEE6112959F2EA000335A8 /* MovieVO.swift in Sources */,
