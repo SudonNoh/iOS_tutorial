@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 class MovieVO {
     var thumbnail: String?
@@ -14,4 +15,7 @@ class MovieVO {
     var detail: String?
     var opendate: String?
     var rating: Double?
+    
+    // 영화 썸네일 이미지를 담을 UIImage 객체를 추가
+    var thumbnailImage: UIImage?
 }
