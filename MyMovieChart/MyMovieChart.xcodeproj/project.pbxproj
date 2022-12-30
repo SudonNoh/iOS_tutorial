@@ -11,6 +11,7 @@
 		EA66C869295A7446001C6CB2 /* darknight.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EA66C868295A7446001C6CB2 /* darknight.jpeg */; };
 		EA66C86C295A744E001C6CB2 /* rain.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EA66C86A295A744E001C6CB2 /* rain.jpeg */; };
 		EA66C86D295A744E001C6CB2 /* secret.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EA66C86B295A744E001C6CB2 /* secret.jpeg */; };
+		EA8E8FFB295EC95E00F0FCB9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8E8FFA295EC95E00F0FCB9 /* DetailViewController.swift */; };
 		EADEE5FB2959F207000335A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADEE5FA2959F207000335A8 /* AppDelegate.swift */; };
 		EADEE5FD2959F207000335A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADEE5FC2959F207000335A8 /* SceneDelegate.swift */; };
 		EADEE5FF2959F207000335A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADEE5FE2959F207000335A8 /* ViewController.swift */; };
@@ -26,6 +27,7 @@
 		EA66C868295A7446001C6CB2 /* darknight.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = darknight.jpeg; sourceTree = "<group>"; };
 		EA66C86A295A744E001C6CB2 /* rain.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rain.jpeg; sourceTree = "<group>"; };
 		EA66C86B295A744E001C6CB2 /* secret.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = secret.jpeg; sourceTree = "<group>"; };
+		EA8E8FFA295EC95E00F0FCB9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		EADEE5F72959F207000335A8 /* MyMovieChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMovieChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADEE5FA2959F207000335A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EADEE5FC2959F207000335A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				EADEE5FC2959F207000335A8 /* SceneDelegate.swift */,
 				EADEE5FE2959F207000335A8 /* ViewController.swift */,
 				EADEE6002959F207000335A8 /* Main.storyboard */,
+				EA8E8FFA295EC95E00F0FCB9 /* DetailViewController.swift */,
 				EA66C865295A639C001C6CB2 /* MovieCell.swift */,
 				EADEE6102959F2EA000335A8 /* MovieVO.swift */,
 				EADEE60E2959F240000335A8 /* ListViewController.swift */,
@@ -173,6 +176,7 @@
 				EADEE60F2959F240000335A8 /* ListViewController.swift in Sources */,
 				EADEE5FD2959F207000335A8 /* SceneDelegate.swift in Sources */,
 				EADEE6112959F2EA000335A8 /* MovieVO.swift in Sources */,
+				EA8E8FFB295EC95E00F0FCB9 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
